@@ -1,0 +1,172 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Barra de Navegacion -->
+    <nav id="nav-bar">
+        <div id="nav-content">
+            <h1 id="nav-title">Playa Privada</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" id="shop-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+            <section class="cart">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="table-title">Imagen</th>
+                            <th class="table-title">Nombre</th>
+                            <th class="table-title">Precio</th>
+                            <th class="table-title">Cantidad</th>
+                            <th class="table-title">Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="table-remove">Bye Carrito</button>
+            </section>         
+        </div>
+    </nav>
+    <!-- Section Hero -->
+    <section id="Hero">
+        <div id="hero-content">
+            <h1 id="hero-title">Visita playas nuevas</h1>
+            <h2 id="hero-subtitle">Playas a 40$</h2>
+            <div id="hero-input">
+                <input type="text" placeholder="Que playa te gustaria visitar?">
+                <svg xmlns="http://www.w3.org/2000/svg" id="hero-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 15.75-2.489-2.489m0 0a3.375 3.375 0 1 0-4.773-4.773 3.375 3.375 0 0 0 4.774 4.774ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>                  
+            </div>
+        </div>
+    </section>
+    <!-- Section Info -->
+    <section id="info">
+        <div id="info-container">
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon" version="1.0" width="1148.000000pt" height="1280.000000pt" viewBox="0 0 1148.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+                    <metadata>
+                    Created by potrace 1.15, written by Peter Selinger 2001-2017
+                    </metadata>
+                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                    <path d="M2030 12794 c-94 -11 -235 -38 -325 -60 -366 -93 -821 -328 -1167 -604 -75 -60 -316 -273 -317 -280 -1 -3 63 -1 141 3 198 11 533 2 639 -17 161 -30 286 -83 377 -162 24 -20 79 -82 124 -138 183 -229 285 -307 486 -370 l83 -26 87 25 c209 59 283 69 502 69 195 0 210 -1 295 -27 189 -58 299 -124 585 -351 107 -85 240 -182 295 -216 90 -54 259 -130 290 -130 6 0 47 20 91 45 105 60 207 102 296 121 83 17 289 20 408 5 123 -16 300 -22 375 -14 l70 8 3 45 c5 59 -15 245 -34 327 -80 345 -299 651 -617 860 -204 134 -658 217 -927 169 -41 -8 -75 -13 -75 -12 -3 18 -121 171 -179 233 -221 235 -522 380 -927 447 -53 9 -127 23 -165 32 -67 14 -343 27 -414 18z"/>
+                    <path d="M8450 12713 c-254 -14 -564 -63 -845 -133 -234 -58 -885 -273 -983 -325 -100 -53 -196 -127 -307 -239 -284 -287 -522 -718 -600 -1091 -16 -76 -45 -316 -39 -323 1 -2 62 22 136 53 237 101 460 168 690 205 415 67 839 35 1141 -87 l88 -35 37 43 c79 95 221 234 297 291 99 74 272 160 385 190 72 20 108 23 240 22 191 -1 264 -18 431 -102 l116 -59 24 46 c85 161 212 316 334 406 152 113 308 172 614 235 221 46 353 84 460 133 l73 33 -83 70 c-323 271 -670 448 -1099 563 -322 86 -742 125 -1110 104z"/>
+                    <path d="M1952 10639 c-134 -12 -354 -53 -527 -98 -82 -21 -221 -57 -309 -80 -250 -65 -395 -148 -582 -335 -252 -254 -415 -563 -489 -930 -57 -284 -59 -525 -9 -846 10 -58 18 -106 19 -108 4 -6 135 55 199 92 110 65 249 190 458 412 259 274 359 361 487 422 62 30 88 36 156 40 139 7 253 -44 402 -182 l70 -65 139 74 c430 231 773 324 1117 304 187 -12 324 -46 511 -130 l109 -49 142 138 c158 153 274 247 510 412 233 164 427 312 418 321 -17 16 -295 166 -403 217 -599 284 -1245 428 -1763 393 -98 -7 -188 -7 -252 -1 -118 11 -273 11 -403 -1z"/>
+                    <path d="M6300 10433 c-97 -7 -321 -35 -435 -54 -118 -20 -485 -96 -492 -102 -6 -7 257 -129 400 -186 82 -33 174 -74 205 -93 137 -81 288 -279 462 -608 51 -96 96 -179 101 -184 4 -5 57 11 121 37 186 75 255 91 393 91 140 0 199 -18 301 -90 74 -52 128 -115 199 -231 31 -51 59 -87 67 -85 7 2 71 26 142 54 332 129 558 149 741 64 106 -50 172 -105 405 -342 l213 -217 31 18 c149 89 286 133 378 121 115 -16 199 -63 403 -227 146 -119 212 -166 300 -214 71 -39 263 -110 272 -101 9 9 -33 182 -70 286 -142 406 -515 823 -1062 1187 -174 115 -225 145 -402 229 -876 421 -1397 586 -2028 644 -100 9 -536 11 -645 3z"/>
+                    <path d="M5250 9870 c-182 -362 -465 -836 -1080 -1805 -528 -833 -773 -1231 -1000 -1630 -1037 -1820 -1528 -3372 -1610 -5085 -11 -245 -13 -580 -3 -758 l6 -121 26 5 c57 10 400 34 638 45 379 17 737 -5 1001 -62 52 -11 96 -18 100 -15 3 4 -2 84 -11 179 -40 409 -51 645 -51 1132 0 466 7 652 40 1035 124 1459 500 2935 1184 4645 229 572 472 1130 885 2033 l89 193 -75 150 c-41 83 -77 153 -81 155 -4 3 -30 -41 -58 -96z"/>
+                    <path d="M4661 5281 c0 -3 379 -877 842 -1941 l842 -1935 143 -3 c104 -2 142 -6 142 -15 -1 -6 -76 -320 -168 -697 l-167 -685 369 -3 c203 -1 371 0 374 3 5 4 80 1276 82 1373 0 22 1 22 150 22 l150 0 -4 -23 c-3 -12 -8 -87 -11 -167 l-6 -145 373 2 373 3 -3 22 c-7 47 -42 264 -47 285 l-5 23 204 0 205 0 -5 -52 c-2 -29 -18 -312 -34 -628 -16 -316 -32 -599 -34 -627 l-5 -53 375 0 c206 0 374 4 374 8 0 5 -49 305 -110 667 -60 362 -110 665 -110 672 0 10 51 13 255 13 l255 0 0 23 c0 13 8 31 18 39 24 22 223 120 229 114 3 -3 0 -84 -6 -180 -6 -97 -11 -203 -11 -236 l0 -60 370 0 c346 0 370 1 370 18 0 9 -29 187 -64 394 l-63 378 513 261 512 261 66 84 66 84 -42 46 c-34 37 -39 47 -27 55 8 5 19 9 24 10 24 2 -56 20 -129 29 -44 5 -128 17 -188 26 l-108 17 0 377 0 377 -29 40 c-100 138 -239 150 -680 62 -68 -14 -167 -65 -257 -135 -79 -60 -264 -246 -334 -336 -24 -32 -45 -56 -46 -55 -1 1 13 144 32 317 104 951 161 1475 160 1477 -1 1 -105 -13 -231 -32 -1511 -220 -2860 -150 -4240 220 -176 47 -542 156 -662 198 -24 8 -43 12 -42 8z m6134 -2246 c-14 -127 -25 -232 -25 -235 0 -3 -46 0 -102 7 -57 8 -195 24 -308 36 l-205 23 135 70 c150 78 336 193 449 278 41 31 76 55 77 53 2 -2 -8 -106 -21 -232z"/>
+                    </g>
+                    </svg>
+                <p>+500 Playas <br>
+                Explora el mundo con nosotros
+                </p>             
+            </div>
+        </div>
+        <div id="info-container">
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>                  
+                <p>Personal Disponible<br>
+                A todas horas
+                </p>             
+            </div>
+        </div>
+        <div id="info-container">
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>                
+                <p>Disponibilidad a todas horas<br>
+                Visitanos cuando tu quieras
+                </p>             
+            </div>
+        </div>
+    </section>
+    <!-- Playas -->
+    <section id="playas">
+        <div id="playas-container">
+            <h3 id="Playas-title">Playas</h3>
+            <ul id="playas-list">
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-1.jpg" alt="playa-1" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Xpu-Há</p>
+                        <p>Mexico</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-2.jpg" alt="playa-2" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Los Roques</p>
+                        <p>Venezuela</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-3.jpg" alt="playa-3" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Waikiki Beach</p>
+                        <p>Hawaii</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-4.jpg" alt="playa-4" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Las Cabanas</p>
+                        <p>Filipinas</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-5.jpg" alt="playa-5" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Crash Boat</p>
+                        <p>Puerto Rico</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="playas-item">
+                    <div class="playa-img">
+                        <img src="imagenes/curso-6.jpg" alt="playa-6" class="playa-info-img">
+                    </div>
+                    <div class="playa-info">
+                        <p class="playa-title">Isla Margarita</p>
+                        <p>Venezuela</p>
+                        <p class="playa-price">40$</p>
+                        <button class="playa-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
